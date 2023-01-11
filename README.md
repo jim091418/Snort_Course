@@ -12,9 +12,16 @@
 First update source  
 `apt-get update`
 
-check your interface(usually *eth0* or *ens18*)  
+check your interface(usually **eth0** or **ens18**)  
 `ip a`
 ![image](https://user-images.githubusercontent.com/67756786/211751776-e407a6a7-d733-45a1-a4bd-600a9f829aec.png)
+
+install snort and insert your interface  
+`apt-get install -y snort`
+
+check your snort install complete or not  
+`snort -V`
+![image](https://user-images.githubusercontent.com/67756786/211752552-723e0f42-1b3d-4698-9dfb-6506df8e80c9.png)
 
 
 ## References
