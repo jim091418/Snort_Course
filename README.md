@@ -24,8 +24,7 @@ check your snort install complete or not
 ![image](https://user-images.githubusercontent.com/67756786/211752552-723e0f42-1b3d-4698-9dfb-6506df8e80c9.png)
 
 
-## References
-Suricata User Guide:https://suricata.readthedocs.io/en/suricata-6.0.0/index.html  
+## References 
 PCRE Test Page:https://regex101.com/  
 MS17-010_PCAP:https://www.ericconrad.com/2017/04/  
 MS17-010 Source Code:https://www.exploit-db.com/exploits/42030  
@@ -36,4 +35,4 @@ TALOS:https://talosintelligence.com/
 URLHAUS:https://urlhaus.abuse.ch/browse/  
 
 ## Contact me
-Email:jim091418@gmail.com
+Email:jimtang@gm.ttu.edu.tw
