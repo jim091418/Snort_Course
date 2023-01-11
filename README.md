@@ -1,46 +1,21 @@
-# Suricata_Course
+# Snort_Course
 
 ## Getting Started
 
-### Dependencies
+### Environment
 
-```
-apt-get install libpcre3 libpcre3-dbg libpcre3-dev build-essential libpcap-dev   \
-                libnet1-dev libyaml-0-2 libyaml-dev pkg-config zlib1g zlib1g-dev \
-                libcap-ng-dev libcap-ng0 make libmagic-dev         \
-                libnss3-dev libgeoip-dev liblua5.1-dev libhiredis-dev libevent-dev \
-                python-yaml rustc cargo
-```
+- [x] ubuntu 20.04 LTS
+- [x] snort 2.9.7.0
 
-apt doesn't suport cargo and rustc.you need use rustc official website to dowload(cargo is include in rustc), please refer to https://doc.rust-lang.org/cargo/getting-started/installation.html  
-```
-curl https://sh.rustup.rs -sSf | sh
-```
-you need to source the configuration file to make the changes available for your shell.
-```
-source $HOME/.cargo/env
-```
+### Snort Install
 
-### Installation
-First, unzip file and into suricata file
-```
-tar zxvf suricata-6.0.4.targz
-cd suricata-6.0.4
-```
-Second, check dependencies and make Makefile
-```
-./configure
-```
-Final, install suricata
-```
-make && make install
-sudo ldconfig
-```
-you can use suricata -V to comfirm if installation is complete or not.
-```
-suricata -V
-```
-![image](https://user-images.githubusercontent.com/67756786/159440448-8f67b08f-6327-41cb-920f-c8a98c42ecba.png)
+First update source  
+`apt-get update`
+
+check your interface(usually *eth0* or *ens18*)  
+`ip a`
+![image](https://user-images.githubusercontent.com/67756786/211751776-e407a6a7-d733-45a1-a4bd-600a9f829aec.png)
+
 
 ## References
 Suricata User Guide:https://suricata.readthedocs.io/en/suricata-6.0.0/index.html  
