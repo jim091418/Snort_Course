@@ -1,0 +1,1 @@
+alert tcp any any -> 8.209.119.208 80 (msg:"Malware Dowload , Maybe FickerStealer!";content:"f7juhkryu4";sid:100010;)

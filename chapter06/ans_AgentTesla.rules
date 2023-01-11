@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"MALWARE AgentTesla Exfil Username and Password Via SMTP"; content:"xxxx";content:"xxxx"; content:"xxxx";content:"xxxx";sid:100010;)

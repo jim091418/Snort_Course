@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Payload Option Test!";content:"hello";offset:x;depth:x;content:"world";distance:x;within:x;sid:100010;)

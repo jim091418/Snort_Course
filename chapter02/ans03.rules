@@ -1,0 +1,1 @@
+alert tcp ip port -> ip port (msg:"Payload Keyworld Test!";content:"XXXX";sid:1000010;)

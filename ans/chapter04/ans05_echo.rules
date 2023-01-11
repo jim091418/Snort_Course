@@ -1,0 +1,1 @@
+alert tcp 192.168.198.204 any -> any 445 (msg:"MS17-010 echo request alert!";content:"|ff 53 4d 42 2b|";offset:4;depth:5;content:"|4a 6c 4a 6d 49 68 43 6c 42 73 72 00|";distance:32;within:12;sid:100010;)

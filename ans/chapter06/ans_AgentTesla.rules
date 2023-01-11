@@ -1,0 +1,1 @@
+alert tcp any any -> 67.20.116.164 any (msg:"MALWARE AgentTesla Exfil Username and Password Via SMTP"; content:"URL|3a|";content:"Username|3a|"; content:"Password|3a|";content:"Application|3a|";sid:1000010;)

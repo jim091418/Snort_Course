@@ -1,0 +1,1 @@
+alert tcp any any -> 45.142.212.61 any (msg:"Bad Reputation Group1!";sid:1000010)

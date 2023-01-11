@@ -1,0 +1,1 @@
+alert tcp any any -> 192.186.204.161 80 (msg:"Malware Dowload, Maybe Qakbot!";content:"Oliver.Williams-84.zip";sid:1000010;)

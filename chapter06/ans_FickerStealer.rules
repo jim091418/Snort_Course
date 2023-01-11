@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Malware Dowload , Maybe FickerStealer!";content:"xxxx";sid:1000010;)

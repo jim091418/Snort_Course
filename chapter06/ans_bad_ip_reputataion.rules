@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Bad Reputation Group1!";sid:100010;)

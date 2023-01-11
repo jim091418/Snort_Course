@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Log4j PCRE test!";pcre:"/(\x24\x7Bjndi\x3A(dns|rmi|ldap)\x3A\x2F\X2F)((\d+){3}\d+)\x3A(\d+)/";sid:100010;)

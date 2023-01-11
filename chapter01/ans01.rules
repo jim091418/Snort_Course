@@ -1,0 +1,1 @@
+alert tcp ip port -> ip port (msg:"Maybe Syn flood!";sid:1000010;)

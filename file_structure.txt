@@ -1,0 +1,59 @@
+.
+├── ans
+│   ├── chapter01
+│   │   ├── ans01.rules
+│   │   └── ans02.rules
+│   ├── chapter02
+│   │   └── ans03.rules
+│   ├── chapter03
+│   │   └── ans04.rules
+│   ├── chapter04
+│   │   ├── ans05_anonymous.rules
+│   │   └── ans05_echo.rules
+│   ├── chapter05
+│   │   └── ans06.rules
+│   └── chapter06
+│       ├── ans_AgentTesla.rules
+│       ├── ans_bad_ip_reputataion.rules
+│       ├── ans_FickerStealer.rules
+│       └── ans_Qakbot.rules
+├── chapter01
+│   ├── ans01.rules
+│   ├── ans02.rules
+│   ├── sitauational01.pcapng
+│   ├── sitauational02.pcapng
+│   ├── start01.sh
+│   └── start02.sh
+├── chapter02
+│   ├── ans03.rules
+│   ├── sitauational03.pcapng
+│   └── start03.sh
+├── chapter03
+│   ├── ans04.rules
+│   ├── sitauational04.pcapng
+│   └── start04.sh
+├── chapter04
+│   ├── ans05_anonymous.rules
+│   ├── ans05_echo.rules
+│   ├── eternalblue-success-unpatched-win7.pcap
+│   ├── Samba-01-Trace.pcap
+│   ├── start05_anonymous.sh
+│   └── start05_echo.sh
+├── chapter05
+│   ├── 2022-01-01-thru-03-server-activity-with-log4j-attempts.pcap
+│   ├── ans06.rules
+│   └── start06.sh
+├── chapter06
+│   ├── ans_AgentTesla.rules
+│   ├── ans_bad_ip_reputataion.rules
+│   ├── ans_FickerStealer.rules
+│   ├── ans_Qakbot.rules
+│   ├── June-2021-forensic-contest.pcap
+│   ├── start_AgentTesla.sh
+│   ├── start_bad_ip_reputation.sh
+│   ├── start_FickerStealer.sh
+│   └── start_Qakbot.sh
+├── file_structure.txt
+└── README.md
+
+13 directories, 43 files
