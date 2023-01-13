@@ -1,1 +1,1 @@
-alert tcp [any, !140.129.25.36] any -> 140.129.25.57 80 (msg:"Maybe Syn flood!";sid:100010;)
+alert tcp !140.129.25.36 any -> 140.129.25.57 80 (msg:"Maybe Syn flood!";sid:100010;)
